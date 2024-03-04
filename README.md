@@ -1,6 +1,7 @@
 # dmollama
 ```
 git lfs install
+git lfs track "*.dll"
 ```
 
 
