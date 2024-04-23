@@ -27,5 +27,3 @@ ollama run llama3:8b
 https://ollama.com/library
 ```
 # doc
-
-models in https://ollama.com/library
