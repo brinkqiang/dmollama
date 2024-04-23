@@ -22,7 +22,10 @@ set_module_path.bat
 ollama run llama3:8b
 ```
 
-
+模型检索
+```
+https://ollama.com/library
+```
 # doc
 
 models in https://ollama.com/library
