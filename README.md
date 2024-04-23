@@ -14,7 +14,7 @@ git lfs track "*.dll"
 
 设置模型文件环境路径
 ```
-set_module_path.bat
+set_models_env.bat
 ```
 
 安装运行模型
