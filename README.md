@@ -12,11 +12,14 @@ git lfs track "*.dll"
 
 ```
 
-
+设置模型文件环境路径
 ```
-set OLLAMA_MODELS=./.ollama
+set_module_path.bat
+```
 
-ollama run gemma:7b-instruct-fp16
+安装运行模型
+```
+ollama run llama3:8b
 ```
 
 
