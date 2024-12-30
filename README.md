@@ -26,4 +26,9 @@ ollama run llama3:8b
 ```
 https://ollama.com/library
 ```
+
+可执行程序
+```
+https://github.com/ollama/ollama/releases
+```
 # doc
