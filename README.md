@@ -1,23 +1,16 @@
 # dmollama
+
+## 下载安装客户端
 ```
-需要启用lfs的项目 提前运行下面命令
-
-git lfs install
-git lfs track "*.dll"
-
-并将生成的.gitattributes文件签入
-- .gitattributes
-*.dll filter=lfs diff=lfs merge=lfs -text
-
-
+curl -L -o ollama-windows-amd64.zip https://github.com/ollama/ollama/releases/download/v0.5.7/ollama-windows-amd64.zip
 ```
 
-设置模型文件环境路径
+## 设置模型文件环境路径
 ```
 set_models_env.bat
 ```
 
-安装运行模型
+## 安装运行模型
 ```
 ollama run llama3:8b
 ```
@@ -25,10 +18,28 @@ ollama run llama3:8b
 模型检索
 ```
 https://ollama.com/library
+
+https://github.com/ollama/ollama/releases/download/v0.5.7/ollama-windows-amd64.zip
 ```
 
 可执行程序
 ```
 https://github.com/ollama/ollama/releases
 ```
-# doc
+## doc
+
+## faq
+```
+Error: could not connect to ollama app, is it running?
+``` 
+
+```powershell
+net stop winnat
+netsh int ipv4 add excludedportrange protocol=tcp startport=11434 numberofports=1
+net start winnat
+netsh interface ipv4 show excludedportrange protocol=tcp
+```
+## 其他客户端
+```
+https://lmstudio.ai/
+```
