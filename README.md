@@ -12,7 +12,7 @@ set_models_env.bat
 
 ## 安装运行模型
 ```
-ollama run llama3:8b
+ollama run deepseek-r1:1.5b
 ```
 
 模型检索
