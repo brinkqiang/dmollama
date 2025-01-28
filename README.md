@@ -8,6 +8,7 @@ curl -L -o ollama-windows-amd64.zip https://github.com/ollama/ollama/releases/do
 ## 设置模型文件环境路径
 ```
 set_models_env.bat
+ollama serve
 ```
 
 ## 安装运行模型
