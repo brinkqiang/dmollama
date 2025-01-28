@@ -10,4 +10,8 @@ compile_commands.json
 CTestTestfile.cmake
 _deps
 
-/.ollama
+.ollama/
+.vscode/
+.vs/
+lib/
+ollama.exe
