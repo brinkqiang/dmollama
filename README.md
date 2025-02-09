@@ -14,6 +14,7 @@ ollama serve
 ## 安装运行模型
 ```
 ollama run deepseek-r1:1.5b
+ollama run huihui_ai/deepseek-r1-abliterated:8b
 ```
 
 模型检索
